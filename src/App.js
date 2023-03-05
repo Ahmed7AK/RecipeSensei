@@ -1,9 +1,10 @@
 import './App.css';
+import Navbar from "./Components/Navbar"
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Logo</h1>
+      <Navbar />
     </div>
   );
 }
