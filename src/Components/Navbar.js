@@ -1,13 +1,25 @@
+import ninja from "../Images/ninja.png";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+
 const Navbar = () => {
     return (
-        <div>
-            <h2>Logo</h2>
-            <h1>Title</h1>
-            <ol>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-            </ol>
+        <div id="navbar">
+            <Link className="link" id="icon-title" to={"/"}>
+                <img src={ninja} alt="ninja icon"/>
+                <h1>Recipe Sensei</h1>
+            </Link>
+            <ul id="nav-options">
+                <li>
+                    <Link className="link" to={"/random"}>Random</Link>
+                </li>
+                <li>
+                    <Link className="link" to={"/recipes"}>Recipes</Link>
+                </li>
+                <li>
+                    <Link className="link" to={"/saved"}>Saved</Link>
+                </li>
+            </ul>
         </div>
     )
 }

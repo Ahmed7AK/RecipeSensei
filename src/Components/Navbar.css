@@ -1,0 +1,35 @@
+body {
+    height: 2000px;
+}
+#navbar {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    gap: 200px;
+    border: 0px solid;
+    box-shadow: 1px 1px 5px 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#icon-title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+#nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 20px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .75s;
+}
+.link:hover {
+    color: rgb(222, 41, 41);
+}

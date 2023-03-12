@@ -1,0 +1,12 @@
+#card {
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    height: 250px;
+    border: 3px solid;
+
+}
+#card img {
+    max-height: 200px;
+}
