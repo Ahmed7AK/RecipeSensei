@@ -11,10 +11,10 @@ const Navbar = () => {
             </Link>
             <ul id="nav-options">
                 <li>
-                    <Link className="link" to={"/random"}>Random</Link>
+                    <Link className="link" to={"/recipes"}>All Recipes</Link>
                 </li>
                 <li>
-                    <Link className="link" to={"/recipes"}>Recipes</Link>
+                    <Link className="link" to={"/random"}>Random</Link>
                 </li>
                 <li>
                     <Link className="link" to={"/saved"}>Saved</Link>

@@ -1,12 +1,19 @@
-#card {
-    display: flex;
-    flex-direction: column;
-
-    width: 250px;
-    height: 250px;
-    border: 3px solid;
-
+#recipe-div {
+    margin: 150px;
+    background-color: wheat;
+    padding: 20px;
 }
-#card img {
-    max-height: 200px;
+#recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+#recipe img {
+    max-width: 500px;
+}
+#recipe p {
+    font-weight: bold;
+    font-size: 20px;
 }

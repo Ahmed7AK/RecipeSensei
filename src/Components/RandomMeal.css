@@ -1,0 +1,31 @@
+#card {
+    display: flex;
+    background-color: wheat;
+    flex-direction: column;
+    width: 260px;
+    height: 290px;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+#card:hover {
+    rotate: -10deg;
+}
+#card img {
+    display: block;
+    width: 260px;
+    height: 220px;
+    border-radius: 20px;
+}
+#card p {
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: center;
+    padding: 10px;
+}
+.samples {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
