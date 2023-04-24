@@ -9,7 +9,7 @@
 
 }
 #card:hover {
-    rotate: -10deg;
+    rotate: -5deg;
 }
 #card img {
     display: block;

@@ -31,14 +31,12 @@ const RandomMeal = ({setRecipeValue}) => {
     }
     // This will run one time after the component mounts
     useEffect(() => {
-        createCard();
-
+        createCard();        
     }, []);
-    
     return (
         <div>
             <div onClick={() => openRecipe(fullRecipe)} id="card">
-                <Link to={"/recipe"}>
+                <Link target="_self" to={"/recipe"}>
                     <img src={image} alt={"food"}/>
                     <p>{recipe}</p>
                 </Link>

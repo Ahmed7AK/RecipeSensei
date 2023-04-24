@@ -4,7 +4,7 @@
     overflow-x: auto;
     width: 100vw;
     height: 64px;
-    gap: 200px;
+    gap: 300px;
     box-shadow: 1px 1px 5px 1px;
     background-color: rgba(0, 0, 0, 0.5);
 }

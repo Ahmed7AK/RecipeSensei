@@ -1,6 +1,6 @@
 import "./RecipeCard.css";
 
-const RecipeCard = ({value}) => {
+const RandomRecipeCard = ({value}) => {
 
     const renderIngredients = value.ingredients.map((item, index) => 
         <p key={index}>&#x2022; {item}</p>
@@ -26,4 +26,4 @@ const RecipeCard = ({value}) => {
     );
 };
 
-export default RecipeCard;
+export default RandomRecipeCard;

@@ -14,11 +14,9 @@ const Navbar = () => {
                     <Link className="link" to={"/recipes"}>All Recipes</Link>
                 </li>
                 <li>
-                    <Link className="link" to={"/random"}>Random</Link>
+                    <Link className="link" to={"/random"}>Generate Random</Link>
                 </li>
-                <li>
-                    <Link className="link" to={"/saved"}>Saved</Link>
-                </li>
+
             </ul>
         </div>
     )
